@@ -4,7 +4,7 @@ Welcome to the **Astro-D3 Playground**! 🎨✨ This repository is a creative sp
 
 ## About this Repository 📚
 
-This is a playground for learning and exploring the potential of **Astro** and **D3.js**. The repository hosts a variety of examples, experiments, and projects that showcase how these technologies can be used together to create beautiful, data-driven web applications.
+This is a playground for learning and exploring the potential of **Astro** and **D3.js**. The repository is still a work in progress, and I am continuously learning **D3.js** and **Astro**. The examples and projects are under development, and I am actively working to improve them.
 
 ## What is Astro? 🤔
 
