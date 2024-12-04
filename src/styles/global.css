@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #fafafa;
+  background-color: #111;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 25px;
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:hover {
+  opacity: 0.8;
+}
