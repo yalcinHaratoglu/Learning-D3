@@ -115,6 +115,8 @@ const BarChart = () => {
         style={{
           display: "flex",
           width: "100%",
+          maxWidth: "1200px",
+          margin: "0 auto",
           alignItems: "center",
           justifyContent: "space-around",
           padding: "10px",

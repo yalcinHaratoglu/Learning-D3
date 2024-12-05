@@ -1,9 +1,9 @@
-const pathWidth = 120;
-const perRow = 9;
-
-export const calculateGridPos = (i: any) => {
-  return [
-    ((i % perRow) + 0.5) * pathWidth,
-    (Math.floor(i / perRow) + 0.5) * pathWidth,
-  ];
+export const calculateGridPos = (
+  index: number,
+  perRow: number,
+  pathWidth: number
+) => {
+  const x = (index % perRow) * pathWidth + pathWidth / 2;
+  const y = Math.floor(index / perRow) * pathWidth + pathWidth / 2;
+  return `${x},${y}`;
 };

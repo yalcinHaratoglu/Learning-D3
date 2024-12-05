@@ -7,22 +7,28 @@ export const topGenres = [
   "Adventure",
 ];
 export const petalColors = [
-  "#ff5733", // Aksiyon: Kırmızı - Hız ve heyecanı simgeler
-  "#ffab3b", // Komedi: Sarı - Neşeli ve eğlenceli atmosferi yansıtır
-  "#4caf50", // Animasyon: Yeşil - Yaratıcılığı ve doğallığı temsil eder
-  "#3f51b5", // Drama: Mavi - Derinlik ve duygusallığı simgeler
-  "#9c27b0", // Gizem: Mor - Gizemli ve keşfedilmeyi bekleyen unsurları ifade eder
-  "#00bcd4", // Macera: Turkuaz - Hareket ve keşif duygusunu çağrıştırır
+  "#ff5733",
+  "#ffab3b",
+  "#4caf50",
+  "#3f51b5",
+  "#9c27b0",
+  "#00bcd4",
 ];
-export const colors = {
-  Action: "#ffc8f0",
-  Comedy: "#cbf2bd",
-  Animation: "#afe9ff",
-  Drama: "#ffb09e",
-  Mystery: "#f2b6ff",
-  Adventure: "#ff9c9c",
-  Other: "#fff",
+
+interface GenresColors {
+  [key: string]: string;
+}
+
+export const genresColors: GenresColors = {
+  Action: "#ff5733",
+  Comedy: "#ffab3b",
+  Animation: "#4caf50",
+  Drama: "#3f51b5",
+  Mystery: "#9c27b0",
+  Adventure: "#00bcd4",
+  Other: "#fafafa",
 };
+
 export const petalPaths = [
   "M-35 0 C-25 25 25 25 35 0 C50 25 25 75 0 100 C-25 75 -50 25 -35 0",
   "M0 0 C50 50 50 100 0 100 C-50 100 -50 50 0 0 z",
@@ -39,3 +45,4 @@ export const petalPathsObj = {
   "PG-13": petalPaths[3],
   G: petalPaths[5],
 };
+export const parentalGuidelines = ["PG", "R", "PG-13", "G"];
